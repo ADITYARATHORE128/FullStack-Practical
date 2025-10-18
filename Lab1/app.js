@@ -7,10 +7,11 @@ app.get('/',(req, res) => {
 });
 app.get('/student',(req, res) => {
         res.json([
-            "kutbuddin","OK"
+            "aditya","OK"
             ])
         })
 
     app.listen(3000, () =>{
         console.log('Listening on 3000');
     });
+
