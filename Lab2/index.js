@@ -33,7 +33,7 @@ app.get('/',(req, res) => {
 
 app.get('/student',(req, res) => {
     res.json({
-        "name":"kutbuddin",
+        "name":"aditya",
         "role":"student"
     })
 })
@@ -42,4 +42,5 @@ app.use(express.static("static"))
 
 app.listen(port, () =>{
         console.log('Listening on 3000');
+
 });
